@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #1E1B4B;
+  --color-primary-node: #8B5CF6;
+  --color-secondary-glow: #C084FC;
+  --color-off-white: #F8FAFC;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-off-white font-sans selection:bg-primary-node/40 antialiased;
+  }
+  
+  h1, h2, h3, h4 {
+    @apply font-display tracking-tighter;
+  }
+}
+
+.section-label {
+  @apply text-xs font-bold text-primary-node uppercase tracking-[0.3em] mb-6 block;
+}
+
+.glass-card {
+  @apply bg-white/[0.03] backdrop-blur-xl border border-white/10 rounded-xl overflow-hidden transition-all duration-300;
+}
+
+.brutalist-border {
+  @apply border border-white/10 hover:border-primary-node/60 bg-white/[0.02] transition-colors;
+}
+
