@@ -21,20 +21,21 @@ export interface Experience {
 
 export const PROJECTS: Project[] = [
   {
-    title: 'ProspectPlus',
-    description: 'A custom CRM application built to streamline the management of sales leads. Handles complex customer data with a clean, intuitive interface.',
-    tech: ['React', 'Firebase', 'Tailwind']
+    title: 'LPO.PLUS – Connected Logistics Platform',
+    description: 'A premium, mobile-responsive PWA logistics management suite designed for Licensed Post Offices (LPOs). Streamlines parcel pickups and deliveries, bridging the gap between LPOs, franchisee drivers, and end customers by establishing a single source of truth for dispatch and billing.',
+    highlight: "Engineered bi-directional NetSuite synchronization for billing and real-time job status management. Features a 3-step booking wizard with Google Places Autocomplete and dynamic 'Mirror-then-Override' billing logic.",
+    tech: ['PWA', 'NetSuite API', 'Firestore', 'Google Places', 'React']
   },
   {
-    title: 'LocalMile',
+    title: 'ProspectPlus – B2B Sales Management CRM',
+    description: 'A premium B2B business application for managing Field Sales operations and Outbound activities. Orchestrated the "Antigravity" update to enforce outcome-specific mandatory field logic, ensuring high-quality lead data collection.',
+    highlight: "Implemented strict validation rules for appointment setting and dynamic workflow routing. Developed AI-driven training walkthroughs and authored the application's modern brand identity.",
+    tech: ['CRM Systems', 'Lead Validation', 'System Logic', 'Design Strategy']
+  },
+  {
+    title: 'LocalMile.Plus',
     description: 'A delivery booking platform connecting customers directly with Licensed Post Offices, featuring strong UI/UX branding and real-time job management.',
     tech: ['Angular', 'PHP', 'Laravel']
-  },
-  {
-    title: 'LPO.PLUS',
-    description: 'A comprehensive management dashboard for Licensed Post Offices.',
-    highlight: "Architected the navigation to ensure 'Outbound Reporting' and 'Field Activity Reporting' operate strictly as two separate, isolated pages to prevent data routing overlaps.",
-    tech: ['Vue', 'Express', 'PostgreSQL']
   },
   {
     title: 'MailPlus Digital Workflows',
@@ -60,9 +61,9 @@ export const EXPERIENCES: Experience[] = [
     role: 'Technical Lead & Franchisee Owner',
     period: 'Aug 2016 - Present',
     description: [
-      'Directing technical architecture and NetSuite workflows.',
-      'Managing regional operations and franchise growth.',
-      'Specializing in end-to-end solutions for business logic.'
+      'Project Lead for LPO.PLUS and ProspectPlus, directing end-to-end technical implementation and bi-directional NetSuite integrations.',
+      'Architected "Antigravity" logic updates and high-fidelity data validation systems for sales and logistics workflows.',
+      'Managing regional operations and franchise growth while designing modern UI/UX brand identities for enterprise applications.'
     ]
   },
   {
