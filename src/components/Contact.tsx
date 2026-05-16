@@ -59,6 +59,9 @@ export default function Contact() {
           <div className="flex gap-12 text-[10px] font-black uppercase tracking-widest text-white/30">
             <a href="#projects" className="hover:text-primary-node transition-colors">Works</a>
             <a href="#experience" className="hover:text-primary-node transition-colors">Experience</a>
+            <a href="https://github.com/ankith88" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary-node transition-colors">
+              GitHub <ExternalLink size={12} />
+            </a>
             <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-primary-node transition-colors">
               LinkedIn <ExternalLink size={12} />
             </a>

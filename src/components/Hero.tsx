@@ -47,7 +47,7 @@ export default function Hero() {
                   <Linkedin size={20} />
                 </motion.a>
                 <motion.a
-                  href="https://github.com"
+                  href="https://github.com/ankith88"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="p-3 border border-primary-node text-primary-node rounded-full hover:bg-primary-node hover:text-background transition-all"

@@ -26,7 +26,9 @@ export default function Experience() {
             >
               <div className="text-secondary-glow font-mono font-bold tracking-tighter text-xl uppercase">
                 {exp.period.split(' - ')[0]}
-                <span className="text-white/20 block text-xs mt-1">Present</span>
+                <span className="text-white/20 block text-[10px] mt-1 font-bold uppercase tracking-widest">
+                  {exp.period.split(' - ')[1] || 'Present'}
+                </span>
               </div>
               
               <div className="space-y-6">
