@@ -40,6 +40,17 @@ export const PROJECTS: Project[] = [
     title: 'MailPlus Digital Workflows',
     description: 'Enterprise-level NetSuite upgrades including Run Digitalization, Automated Invoicing, and Sendle Hybrid integration.',
     tech: ['NetSuite', 'Oracle', 'JavaScript']
+  },
+  {
+    title: 'AI Portfolio Builder',
+    description: 'A generative AI tool that crafts personalized professional portfolios by analyzing career history through Google AI Studio.',
+    highlight: "Leverages Gemini 1.5 Pro to synthesize complex work experiences into compelling narrative structures.",
+    tech: ['Google AI Studio', 'React', 'Gemini API']
+  },
+  {
+    title: 'Smart Logistics Predictor',
+    description: 'An intelligent operational dashboard that uses large language models to forecast supply chain bottlenecks and suggest alternative routing.',
+    tech: ['Google AI Studio', 'Python', 'FastAPI']
   }
 ];
 
